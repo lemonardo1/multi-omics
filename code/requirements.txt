@@ -1,0 +1,29 @@
+# 단일세포 RNA-seq 분석에 필요한 패키지
+scanpy==1.9.3
+pandas==1.5.3
+numpy==1.24.3
+matplotlib==3.7.1
+seaborn==0.12.2
+anndata==0.8.0
+scipy==1.10.1
+scikit-learn==1.2.2
+umap-learn==0.5.3
+leidenalg==0.9.1
+python-igraph==0.10.4
+louvain==0.8.0
+pynndescent==0.5.8
+fa2==0.3.5
+tqdm==4.65.0
+statsmodels==0.13.5
+plotly==5.14.1
+joblib==1.2.0
+numba==0.56.4
+h5py==3.8.0
+# TensorFlow 호환성을 위해 3.20.3 버전으로 제한
+protobuf==3.20.3 
+
+# RNA velocity 분석에 필요한 추가 패키지
+scvelo==0.2.5
+cellrank>=2.0.0
+loompy==3.0.7
+pybind11>=2.2.4 

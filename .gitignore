@@ -1,0 +1,82 @@
+# 데이터 디렉토리 무시
+data/
+
+# Figures 디렉토리 무시
+figures/
+
+# 환경 변수 파일 무시
+.env
+
+# 캐시 파일 무시
+.cache/
+
+# 데이터 파일 확장자 무시
+*.csv
+*.tsv
+# Allow requirements.txt
+!requirements.txt
+!code/requirements.txt
+*.xlsx
+*.xls
+*.h5
+*.h5ad
+*.loom
+*.mtx
+*.rds
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.parquet
+*.feather
+*.fcs
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.vcf
+*.vcf.gz
+*.bed
+*.gtf
+*.gff
+
+# 그림 파일 확장자 무시
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.tif
+*.tiff
+*.pdf
+*.eps
+*.ai
+*.psd
+
+# Jupyter Notebook 체크포인트 무시
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# 기타 무시할 파일/디렉토리
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
