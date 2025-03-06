@@ -4,11 +4,22 @@ data/
 # Figures 디렉토리 무시
 figures/
 
+# 출력 디렉토리 무시
+output/
+
+# 참조 게놈 디렉토리 무시
+reference_genome/
+
+# 임시 디렉토리 무시
+temp/
+cache/
+
 # 환경 변수 파일 무시
 .env
 
 # 캐시 파일 무시
 .cache/
+__pycache__/
 
 # 데이터 파일 확장자 무시
 *.csv
@@ -41,6 +52,7 @@ figures/
 *.bed
 *.gtf
 *.gff
+*.obo
 
 # 그림 파일 확장자 무시
 *.png
@@ -80,3 +92,37 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# 대용량 파일
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+*.rar
+
+# 환경 설정 파일
+.venv
+venv/
+ENV/
+
+# 기타 시스템 파일
+.DS_Store
+Thumbs.db
+
+# Conda 설치 파일
+Miniconda3-latest-Linux-x86_64.sh
+
+# 특정 대용량 파일
+code/results.h5ad
+code/new_results.h5ad
+=61
+=8.x
+
+# 예외 처리 - 깃에 포함할 파일들
+!README.md
+!code/README.md
+!code/README_velocity.md
+!code/README-further.md
+!code/RNA_VELOCITY_GUIDE.md
+!*.py
